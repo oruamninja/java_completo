@@ -1,15 +1,15 @@
-import java.util.Locale;
 
 public class Main {
 
 	public static void main(String[] args) {
-
-		Locale.setDefault(Locale.US);
 		
-		int a = 2;
-		int b = 3;
+		Section4 sf = new Section4();
 		
-		System.out.println((double) b/a);
+//		sf.entradaDados();
+		
+//		sf.saidaDados();
+		
+		sf.funcoesMatematicas();
 	}
 
 }
